@@ -120,8 +120,6 @@ Array.from(decerseBtn).forEach((item, i, arr) => {
   });
 });
 
-//! Quantity Increase
-
 Array.from(increseBtn).forEach((item, i, arr) => {
   item.addEventListener("click", (e) => {
     let count = arr[i].parentElement.parentElement.children[1].innerHTML;
