@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+#innerdiv {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  margin: 20px;
+}
+.square {
+  background-color: white;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-left: 4rem solid transparent;
+  border-right: 4rem solid transparent;
+  border-bottom: 4rem solid white;
+}
+button {
+  margin: 10px;
+  font: 14px;
+}
