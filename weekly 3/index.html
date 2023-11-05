@@ -9,43 +9,21 @@
   <body>
     <div class="maincontainer">
       <div class="productlist">
-        <div class="heading">Products</div>
-        <div class="Products">
-          <div class="Product">
-            <div class="Product-name">Product-1</div>
-            <div class="Product-price">100</div>
-            <div class="buttons">
-              <button>-</button>
-              <span>0</span>
-              <button>+</button>
-            </div>
-          </div>
-          <div class="Product">
-            <div class="Product-name">Product-1</div>
-            <div class="Product-price">100</div>
-            <div class="buttons">
-              <button>-</button>
-              <span>0</span>
-              <button>+</button>
-            </div>
-          </div>
-          <div class="Product">
-            <div class="Product-name">Product-1</div>
-            <div class="Product-price">100</div>
-            <div class="buttons">
-              <button>-</button>
-              <span>0</span>
-              <button>+</button>
-            </div>
-          </div>
-        </div>
+        <h1>Products</h1>
+        <div id="products" class="productList"></div>
       </div>
-      <div class="cart">
-        <div class="heading">Cart</div>
-        <div class="Product-info">
-          <div class="Product-name">Product-1</div>
+
+      <div class="cart-box">
+        <h2>Cart</h2>
+        <div id="cartItemsList" class="cartItemsList">
+          <div id="cartItems" class="cartItems"></div>
+          <div class="cartTotal">
+            <p>Total :</p>
+            <p id="total">0 &#8377;</p>
+          </div>
         </div>
       </div>
     </div>
+    <script defer src="script.js"></script>
   </body>
 </html>
