@@ -6,6 +6,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .container {
   max-width: 457px;
