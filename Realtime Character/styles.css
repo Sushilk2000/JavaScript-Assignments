@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+.container {
+  max-width: 457px;
+  background-color: lightpink;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.CharacterCounter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 20px;
+  color: rgb(86, 77, 77);
+}
+textarea {
+  resize: none;
+  font-size: 24px;
+}
