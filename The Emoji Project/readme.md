@@ -1,2 +1,3 @@
 # The Emoji Project
-## [Hosted Link] ()
+
+## [Hosted Link] (https://sushilk2000.github.io/JavaScript-Assignments/The%20Emoji%20Project/)
