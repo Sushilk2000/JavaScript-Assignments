@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 48px;
+}
+input {
+  padding: 10px 5px;
+  width: 170px;
+  font-size: 16px;
+  margin-right: 5px;
+}
+#submitbtn {
+  font-size: 16px;
+  padding: 10px 30px;
+  width: 170px;
+}
+.cardsContainer {
+  margin-top: 30px;
+}
+.playerdetails {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: rgb(107, 216, 145);
+}
+.playername {
+  display: flex;
+  flex-direction: column;
+}
+.country {
+}
+.scoremanipulator {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+.scoremanipulator button {
+  background-color: transparent;
+  border: none;
+}
+.delete {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}

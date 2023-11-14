@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-color: rgb(36, 36, 70);
+}
+h1 {
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+}
+.clock_container {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  gap: 40px;
+}
+.time {
+  background-color: slateblue;
+  width: 120px;
+  height: 96px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 15px 0 0;
+}
+
+.name {
+  width: 120px;
+  height: 30px;
+  font-size: 10px;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 15px 15px;
+}
+.controller {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}
+.controller button {
+  padding: 15px 40px;
+  background-color: rgb(81, 157, 51);
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+.controller button:hover {
+  background-color: rgb(46, 96, 26);
+}
