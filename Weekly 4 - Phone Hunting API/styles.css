@@ -121,8 +121,9 @@ header img {
   border: none;
   border-radius: 0.5rem;
 }
-.details {
+#details {
   position: relative;
+  display: none;
 }
 
 #my_modal {
