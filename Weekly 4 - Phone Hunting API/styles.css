@@ -54,12 +54,16 @@ body {
 header img {
   min-width: 400px;
   width: 100%;
+  margin: 2rem 0;
 }
 .maintitle {
   text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
 }
 .searchdiv {
   text-align: center;
+  margin: 1rem 0;
 }
 .searchdiv input {
   width: 25rem;
@@ -68,7 +72,7 @@ header img {
   border: 1px solid gray;
 }
 .searchdiv button {
-  padding: 0.85rem 1rem;
+  padding: 0.85rem 1.5rem;
   background-color: rgb(87, 13, 248);
   color: white;
   border: none;
