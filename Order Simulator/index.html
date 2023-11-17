@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="w idth=device-width, initial-scale=1.0" />
+    <title>Menu Selector</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftcontainer">
+        <h1>Select Preferance</h1>
+        <select id="foodType" onchange="updateMenu()">
+          <option value="vegetarian" selected>Vegetarian</option>
+          <option value="nonVegetarian">Non-Vegetarian</option>
+        </select>
+        <div id="menu"></div>
+        <button onclick="submitOrder()">Submit Order</button>
+      </div>
+
+      <div class="rightcontainer" id="orderResult"></div>
+    </div>
+  </body>
+</html>
