@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(41, 42, 55);
+}
+body h1 {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+.filtercontainer {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.searchbyname label {
+  font-size: 12px;
+  margin: 0 0 10px 10px;
+}
+#searchInput {
+  padding: 10px 15px;
+  width: 400px;
+  border-radius: 8px;
+  border: 1px solid rgb(198, 198, 198);
+  color: white;
+  background-color: rgb(41, 42, 55);
+}
+.filtercontainer {
+  margin: 10px 15px;
+}
+.genselector span,
+.typeselector span {
+  font-size: 12px;
+  margin: 0 0 10px 10px;
+}
+#pokemonType,
+#submit,
+#reset {
+  padding: 10px 15px;
+  width: 200;
+  background-color: rgb(41, 42, 55);
+  color: white;
+  border-radius: 8px;
+  border: 1px solid rgb(198, 198, 198);
+  margin: 20px 10px;
+}
+.pokedex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px 30px;
+  justify-items: center;
+  row-gap: 30px;
+}
+.card {
+  border: 1px solid white;
+  width: 240px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+}
+.idcontainer {
+  color: black;
+  background-color: white;
+  margin: 20px 0 10px 0;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+}
+.card img {
+  height: 9rem;
+  max-width: 91%;
+  margin: 0 auto;
+}
+.card .name {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  color: white;
+}
+.card .pokemon_type {
+  display: flex;
+  margin: 15px auto;
+  justify-content: center;
+  gap: 20px;
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 16px;
+  background-color: white;
+}
+.grass {
+  background-color: rgb(155, 205, 81);
+}
+.poison {
+  background-color: rgb(185, 126, 200);
+}
+.fire {
+  background-color: rgb(252, 125, 37);
+}
+.flying {
+  background-color: rgb(61, 199, 239);
+}
+.ice {
+  background-color: rgb(81, 197, 230);
+}
+.bug {
+  background-color: rgb(115, 159, 62);
+}
+.water {
+  background-color: rgb(68, 146, 197);
+}
+.rock {
+  background-color: rgb(163, 141, 32);
+}
+.electric {
+  background-color: rgb(238, 212, 52);
+}
+.ground {
+  background-color: rgb(247, 223, 62);
+}
+.dark {
+  background-color: rgb(113, 112, 113);
+}
+.fairy {
+  background-color: rgb(252, 184, 233);
+}
+.fighting {
+  background-color: rgb(212, 103, 34);
+}
+.normal {
+  background-color: rgb(41, 42, 55);
+}
+.psychic {
+  background-color: rgb(242, 103, 185);
+}
+.ghost {
+  background-color: rgb(123, 99, 162);
+}
+.dragon {
+  background-color: rgb(83, 165, 206);
+}
+.steel {
+  background-color: rgb(159, 183, 185);
+}
