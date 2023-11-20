@@ -35,7 +35,6 @@ function storeUserInfo() {
 
   localStorage.setItem("userInformation", JSON.stringify(userInfo));
 
-  // Display user information in the card
   document.getElementById("first-name").textContent = userInfo.firstName;
   document.getElementById("last-name").textContent = userInfo.lastName;
   document.getElementById("country").textContent = userInfo.country;
