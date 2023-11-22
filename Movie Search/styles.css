@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 30px 20px;
+  background-color: #242428;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.4);
+}
+.header .logo {
+  font-size: 30px;
+  color: rgb(255, 221, 149);
+}
+.logo a {
+  text-decoration: none;
+  color: rgb(255, 221, 149);
+}
+.header input {
+  padding: 10px 15px;
+  width: 450px;
+  font-size: 16px;
+  color: black;
+  border-radius: 6px;
+}
+.header button {
+  padding: 10px 15px;
+  width: 100;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: rgb(255, 221, 149);
+}
+.container {
+  display: flex;
+  margin-top: 5px;
+  min-height: 86vh;
+}
+.sidebar {
+  width: 25%;
+  background-color: #242428;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  border-right: 5px solid gray;
+}
+.movie_container {
+  width: 75%;
+  background-color: #242428;
+  display: flex;
+  padding: 30px 0;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.movie {
+  border: 1px solid white;
+  height: max-content;
+  cursor: pointer;
+}
+
+.image {
+  width: 200px;
+  width: 220px;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}
+.name {
+  color: white;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 24px;
+}
