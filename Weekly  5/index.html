@@ -1,47 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Weekly 5</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-<header class="header">
-    <div class="left_header">
-       <span>img</span>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left_header">
+        <span>img</span>
         <span>img222</span>
-    </div>
-    <div class="right_header">
+      </div>
+      <div class="right_header">
         <div class="mode_switch">
-            <input type="checkbox" id="dark-mode" class="input">
-            <label for="dark-mode" class="label">
-                <span class="circle"></span>
-            </label>
+          <input type="checkbox" id="dark-mode" class="input" />
+          <label for="dark-mode" class="label">
+            <span class="circle"></span>
+          </label>
         </div>
         <div class="signIn">
-            <button>Sign Up</button>
+          <button>Sign Up</button>
         </div>
-    </div>
-</header>
-<main>
-    <div class="left_container">
+      </div>
+    </header>
+    <main>
+      <div class="left_container">
         <div class="list">
-            <ul id="list_ul">
-                <li class="category_name">All Categories</li>
-            </ul>
+          <ul id="list_ul">
+            <li class="category_name">All Categories</li>
+          </ul>
         </div>
-    </div>
-    <div class="right_container" id="right_container">
+      </div>
+      <div class="right_container" id="right_container">
+        <div class="collector" id="collector"></div>
+      </div>
+    </main>
 
-            <div class="collector" id="collector">
-
-            </div>
+    <div class="backdrop" id="backdrop"> <div class="modal-pop"> <button class="modal-pop__button--close" id="close__btn" style="cursor: pointer;" data-modal-pop-close=""> <img  onclick="closefunction()" src="809529-200.png" height="24"width="24"/> </button>  <div class="modal-pop__container" data-modal="">
+      <div class="modal-info">
+        <img class="modal-info__image">
+        <div class="modal-info__box">
+          <h2 class="modal-info__title"></h2>
+          <p class="modal-info__author"></p>
+          <p class="modal-info__text"></p>
+          <ul class="modal-info__list">
+            <li>
+              <a class="modal-info__link" target="_blank" crossorigin="anonymous" rel="noopener noreferrer" aria-label="Amazon" id="amazon">
+                <img srcset="https://yevhenii2022.github.io/team-proj-js-book-app/amazon-shop-1x.d33dc585.png 1x, https://yevhenii2022.github.io/team-proj-js-book-app/amazon-shop-2x.01f59d3f.png 2x" src="https://yevhenii2022.github.io/team-proj-js-book-app/amazon-shop-1x.d33dc585.png" alt="amazon">
+              </a>
+            </li>
+            <li>
+              <a class="modal-info__link"  target="_blank" crossorigin="anonymous" rel="noopener noreferrer" aria-label="Apple-books" id="apple">
+                <img srcset="https://yevhenii2022.github.io/team-proj-js-book-app/apple-shop-1x.aeb5cfd2.png 1x, https://yevhenii2022.github.io/team-proj-js-book-app/apple-shop-2x.df06fe16.png 2x" src="https://yevhenii2022.github.io/team-proj-js-book-app/apple-shop-1x.aeb5cfd2.png" alt="apple-books">
+              </a>
+            </li>
+            <li>
+              <a class="modal-info__link" target="_blank" crossorigin="anonymous" rel="noopener noreferrer" aria-label="Bookshop" id="bookshop">
+                <img srcset="https://yevhenii2022.github.io/team-proj-js-book-app/bookshop-1x.d3877644.png 1x, https://yevhenii2022.github.io/team-proj-js-book-app/bookshop-2x.bc4a3396.png 2x" src="https://yevhenii2022.github.io/team-proj-js-book-app/bookshop-1x.d3877644.png" alt="bookshop">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="modal-info__button" type="button">
+        add to shopping list
+      </button>
+    </div> <p class="modal-info__description"></p> <p class="description-non">there is no description of this book</p> </div> </div>
     </div>
-</main>
-<script src="./script.js"></script>
-<script src="./All_cat.js"></script>
-</body>
+
+
+    <script src="./script.js"></script>
+    <script src="./All_cat.js"></script>
+  </body>
 </html>
